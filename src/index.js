@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const PORT = process.env.PORT || 3000; // Render define el puerto por variable de entorno
+const PORT = process.env.PORT || 10000; // Render define el puerto por variable de entorno
 
 app.use(express.static('public')); // Para servir archivos estáticos
 
